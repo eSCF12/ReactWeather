@@ -1,7 +1,3 @@
-/**
- * Created by wanggang on 2017-01-08.
- */
-
 var webpack = require('webpack');
 
 module.exports = {
@@ -49,5 +45,6 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/
             }
         ]
-    }
+    },
+    devtool: 'cheap-module-eval-source-map'
 };
